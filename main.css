@@ -1,0 +1,140 @@
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.announcements {
+    display: flex;
+    justify-content: center;
+    background-color: #552804;
+    margin-bottom: 18px;
+    color: rgb(236, 140, 75);
+    height: 130px;
+}
+
+
+.announcements span {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    max-width: 60%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 500;
+}
+
+.section {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.text{
+    width: 50%;
+    color: rgb(236, 140, 75);
+    padding: 32px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #552804;
+}
+
+.image{
+    width: 50%;
+    height: 420px;
+    display: flex;
+}
+
+.image img{
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+h4{ 
+    font-size: 19px;
+}
+.cta{
+    padding: 7px 16px;
+    border: 1px solid rgb(236, 140, 75);
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2 ease;
+}
+
+.cta:hover{
+    padding: 7px 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgb(236, 140, 75);
+    transition: all 1s ease;
+}
+
+section {
+    display: flex;
+}
+
+.top-bottom-section {
+    width: 50%;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bottom-section .image {
+    width: 100%;
+}
+
+.top-bottom-section .image img {
+    width: 100%
+}
+
+.top-bottom-section .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-column-double{
+    max-width: 1440px;
+}
+.section-column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section-column .image {
+    display: flex;
+    width: 100%;
+}
+.section-column .text {
+    width: 100%;
+    height:300px;
+}
+#space{
+    width: 2%;
+}
